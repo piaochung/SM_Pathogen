@@ -23,7 +23,7 @@ public class BookManager : MonoBehaviour
     void Start()
     {
         originalSprite = gameObject.GetComponent<Image>().sprite;
-        
+
         SetVirusContainer();
     }
 
@@ -38,8 +38,8 @@ public class BookManager : MonoBehaviour
         else
         {
             //도감 오픈 상태
-            gameObject.GetComponent<Image>().sprite = originalSprite;
-            gameObject.GetComponentInChildren<Text>().text = encyclopediaData.virusName;
+            gameObject.GetComponent<Image>().sprite = encyclopediaData.openImage;
+            gameObject.GetComponentInChildren<Text>().text = "";
         }
     }
 

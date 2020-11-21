@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff7da44e7cbe6346a396f8e5f098f5c, type: 3}
+  m_Name: virus02
+  m_EditorClassIdentifier: 
+  isOpen: 1
+  lockImage: {fileID: 21300000, guid: 966d02f42b23b414a865f381a276ea9d, type: 3}
+  openImage: {fileID: 21300000, guid: 3d766a02e5314bd49a91e202d9edfdec, type: 3}
+  virusCategory: "\uAE30\uC0DD\uCDA9"
+  virusName: "\uB3C5\uC18C\uD3EC\uC790\uCDA9\uC99D"
+  virusTroubleLocation: "\uB208"
+  virusPreventive: "\uC721\uB958\uB294 \uC798 \uC775\uD788\uACE0 \uCC44\uC18C\uB294\uD750\uB974\uB294
+    \uBB3C\uC5D0 \uAE68\uB057\uC774\uC53B\uC5B4\uC11C \uC12D\uCDE8\uD558\uACE0 \uC870\uB9AC\uAE30\uAD6C\uB3C4
+    \uCCA0\uC800\uD558\uAC8C \uC18C\uB3C5\uD6C4 \uC0AC\uC6A9\uD560 \uAC83.\uACE0\uC591\uC774\uB97C
+    \uAE30\uB97C \uB54C \uACE0\uC591\uC774\uBD84\uBCC0\uC744 \uC2E0\uC18D\uD558\uACE0
+    \uCCAD\uACB0\uD558\uAC8C \uCC98\uB9AC\uD558\uBA70, \uC9C1\uC811 \uC811\uCD09\uC744\uD53C\uD560
+    \uAC83"
+  virusInformation: "\uC778\uC218\uACF5\uD1B5 \uAE30\uD68C\uAC10\uC5FC \uC6D0\uCDA9\uC73C\uB85C
+    \uACE0\uC591\uC774\uAC00 \uC720\uC77C\uD55C \uC885\uC219\uC8FC\uC774\uBA70 \uC804\uD30C\uB9E4\uAC1C\uCCB4\uC784. "
