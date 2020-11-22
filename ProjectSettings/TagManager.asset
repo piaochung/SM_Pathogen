@@ -10,6 +10,7 @@ TagManager:
   - PlayerBullet
   - BeeBullet
   - EnemyCastle
+  - DronBullet
   layers:
   - Default
   - TransparentFX

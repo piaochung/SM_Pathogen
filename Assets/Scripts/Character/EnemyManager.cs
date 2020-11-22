@@ -22,6 +22,13 @@ public class EnemyManager : CharacterManager
             Hit(5);
            
         }
+        if (collision.gameObject.tag == "DronBullet")
+        {
+            Debug.Log("트론 총알맞았어요");
+            Destroy(collision.gameObject);
+            Hit(5);
+
+        }
     }
 
     public void DestroyGameObject()
