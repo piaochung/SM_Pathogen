@@ -18,19 +18,18 @@ public class SkillBtn : MonoBehaviour
 
     public void UseSkill() //스킬사용
     {
-        if (SkillFitter.fillAmount ==0)
+        if(GameManager.Instance.score >= 30)
         {
-            Debug.Log("스킬 사용");
-            SkillFitter.fillAmount = 1;
-            StartCoroutine("CoolTime");
-
-            
-            SpawnBee();
-
+            if (SkillFitter.fillAmount == 0)
+            {
+                Debug.Log("스킬 사용");
+                GameManager.Instance.score -= 30;
+                SkillFitter.fillAmount = 1;
+                StartCoroutine("CoolTime");
+                SpawnBee();
+            }
         }
-
     }
-
 
     IEnumerator CoolTime() //쿨타임 
     {

@@ -20,18 +20,17 @@ public class DronSkillBtn : MonoBehaviour
 
     public void UseSkill() //스킬사용
     {
-        if (SkillFitter.fillAmount == 0)
+        if(GameManager.Instance.score >= 25)
         {
-            Debug.Log("스킬 사용");
-            SkillFitter.fillAmount = 1;
-            StartCoroutine("CoolTime");
-            SpawnDron();
-
-
-
-
+            if (SkillFitter.fillAmount == 0)
+            {
+                GameManager.Instance.score -= 25;
+                Debug.Log("스킬 사용");
+                SkillFitter.fillAmount = 1;
+                StartCoroutine("CoolTime");
+                SpawnDron();
+            }
         }
-
     }
 
 
