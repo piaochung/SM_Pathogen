@@ -14,7 +14,7 @@ abstract public class CharacterManager : MonoBehaviour
     public float attackPower;
 
     protected Animator anim;
-    protected int deadScore;
+    public int deadScore;
     protected IEnumerator attackCoroutine;
     protected bool isDead;
 

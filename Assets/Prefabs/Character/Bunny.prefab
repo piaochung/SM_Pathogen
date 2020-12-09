@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1427057121578312606}
   - component: {fileID: 1427057121578312605}
+  - component: {fileID: 4569066481354156129}
   - component: {fileID: 1427057121578312604}
-  - component: {fileID: 1427057121578312607}
   - component: {fileID: 1427057121578312592}
   - component: {fileID: 1427057121578312593}
   m_Layer: 8
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 4262997996146482006, guid: 9f89a7f8d74ac544ba79805e58cc9db0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.34, y: 0.44}
@@ -86,6 +86,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4569066481354156129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427057121578312603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b00cf9c5b470c45a2e0acf80976262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathParticle: {fileID: 7932752716892604031, guid: 94fec38f8860bd545b1996030b4b2323,
+    type: 3}
+  spawnPoints:
+  - {x: 10, y: -1.5, z: 0}
+  - {x: -10, y: -1.5, z: 0}
+  collisionName: Friendly
+  moveSpeed: 5
+  healthAmount: 2
+  attackPower: 0
+  deadScore: 30
 --- !u!95 &1427057121578312604
 Animator:
   serializedVersion: 3
@@ -105,25 +127,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1427057121578312607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427057121578312603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1c850009faa33e4a86d995c71a20da6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {x: -10, y: -1.5, z: 0}
-  - {x: 10, y: -1.5, z: 0}
-  collisionName: Friendly
-  moveSpeed: 2
-  healthAmount: 12
-  attackSpeed: 0
 --- !u!58 &1427057121578312592
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -148,14 +151,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427057121578312603}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

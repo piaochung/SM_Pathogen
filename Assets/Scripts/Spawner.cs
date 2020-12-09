@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
 
     public GameObject[] enemyPrefabs;
 
-    WaitForSeconds waitTime = new WaitForSeconds(0.5f);
+    WaitForSeconds waitTime = new WaitForSeconds(7f);
 
     public void OnSpawnEnemy()
     {
@@ -34,7 +34,19 @@ public class Spawner : MonoBehaviour
         {
             for (int i = 0; i < GameManager.Instance.stage * 2; ++i)
             {
-                Instantiate(enemyPrefabs[0], transform.position, Quaternion.identity);
+                Debug.Log(i);
+                if (i % 3 == 0)
+                {
+                    Instantiate(enemyPrefabs[1], transform.position, Quaternion.identity);
+                }
+                else if (i % 5 == 0)
+                {
+                    Instantiate(enemyPrefabs[2], transform.position, Quaternion.identity);
+                }
+                else if(i%2 == 0)
+                {
+                    Instantiate(enemyPrefabs[0], transform.position, Quaternion.identity);
+                }
                 yield return waitTime;
             }
             break;
