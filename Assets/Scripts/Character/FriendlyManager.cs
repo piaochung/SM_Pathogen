@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class FriendlyManager : CharacterManager
 {
+
+
     public void DestroyGameObject()
     {
         gameObject.SetActive(false);
     }
+
+
 }
 
