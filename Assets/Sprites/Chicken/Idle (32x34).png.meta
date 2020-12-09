@@ -41,6 +41,15 @@ TextureImporter:
   - first:
       213: 3336215549504360742
     second: Idle (32x34)_12
+<<<<<<< HEAD
+=======
+  - first:
+      213: -1408592506648140402
+    second: Idle (32x34)_13
+  - first:
+      213: 3830506719113925672
+    second: Idle (32x34)_14
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -123,7 +132,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
+=======
+    buildTarget: Android
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,10 +154,17 @@ TextureImporter:
       name: Idle (32x34)_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 0
         width: 32
         height: 34
+=======
+        x: 1
+        y: 0
+        width: 29
+        height: 33
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +182,17 @@ TextureImporter:
       name: Idle (32x34)_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 32
         y: 0
         width: 32
         height: 34
+=======
+        x: 33
+        y: 0
+        width: 29
+        height: 32
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +212,13 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 0
+<<<<<<< HEAD
         width: 32
         height: 34
+=======
+        width: 31
+        height: 28
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,12 +236,21 @@ TextureImporter:
       name: Idle (32x34)_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 96
         y: 0
         width: 32
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 95
+        y: 0
+        width: 34
+        height: 26
+      alignment: 9
+      pivot: {x: 0.3974762, y: 0.41587812}
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,10 +266,17 @@ TextureImporter:
       name: Idle (32x34)_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 128
         y: 0
         width: 32
         height: 34
+=======
+        x: 161
+        y: 0
+        width: 30
+        height: 26
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +294,17 @@ TextureImporter:
       name: Idle (32x34)_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 160
         y: 0
         width: 32
         height: 34
+=======
+        x: 194
+        y: 0
+        width: 28
+        height: 30
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +322,17 @@ TextureImporter:
       name: Idle (32x34)_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 192
         y: 0
         width: 32
         height: 34
+=======
+        x: 226
+        y: 0
+        width: 28
+        height: 33
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +350,17 @@ TextureImporter:
       name: Idle (32x34)_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 224
         y: 0
         width: 32
         height: 34
+=======
+        x: 258
+        y: 0
+        width: 28
+        height: 33
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,9 +378,15 @@ TextureImporter:
       name: Idle (32x34)_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 256
         y: 0
         width: 32
+=======
+        x: 289
+        y: 0
+        width: 29
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -330,9 +405,15 @@ TextureImporter:
       name: Idle (32x34)_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 288
         y: 0
         width: 32
+=======
+        x: 321
+        y: 0
+        width: 29
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,9 +432,15 @@ TextureImporter:
       name: Idle (32x34)_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 320
         y: 0
         width: 32
+=======
+        x: 353
+        y: 0
+        width: 29
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -372,9 +459,15 @@ TextureImporter:
       name: Idle (32x34)_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 352
         y: 0
         width: 32
+=======
+        x: 385
+        y: 0
+        width: 29
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -390,6 +483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Idle (32x34)_12
       rect:
         serializedVersion: 2
@@ -397,6 +491,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 34
+=======
+      name: Idle (32x34)_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 31
+        height: 29
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,8 +507,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6219752cd5e9c4e20800000000000000
       internalID: 3336215549504360742
+=======
+      spriteID: 824588ee091b82530800000000000000
+      internalID: 3830506719113925672
+>>>>>>> a334b05eb043a5fd9fd4d31a7a9cc2beeec19f8c
       vertices: []
       indices: 
       edges: []
